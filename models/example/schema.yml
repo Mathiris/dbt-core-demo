@@ -2,19 +2,19 @@
 version: 2
 
 models:
-  - name: my_first_dbt_model
+  - name: raw_data
     description: "A starter dbt model"
     columns:
-      - name: id
+      - name: number
         description: "The primary key for this table"
         data_tests:
           - unique
           - not_null
 
-  - name: my_second_dbt_model
+  - name: multiple
     description: "A starter dbt model"
     columns:
-      - name: id
+      - name: number
         description: "The primary key for this table"
         data_tests:
           - unique
